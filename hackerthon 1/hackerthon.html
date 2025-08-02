@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MORGAN OMONDI PROFILE</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to my profile. Here you'll get to know more about me.</h1>
+        <p>Biginer in coding and sofware programming</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+    </header>
+
+      <section id="about" style={{ marginBottom: 32 }}>
+        <h2>About Me</h2>
+        <p>
+          Hi! I'm Morgan Omondi, a biginer in coding and web development. I love turning ideas into reality and learning new technologies.
+        </p>
+      </section>
+
+       
+        <section id="projects" style={{ marginBottom: 32 }}>
+            <h2>Projects</h2>
+            <ul>
+            {projects.map((project) => (
+                <li key={my_first_web} style={{ marginBottom: 16 }}>
+                <strong>{my_first_web}</strong>: {html project}{"this was my first web project"}
+                <a href={https://github.com/mg001-ort} target="_blank" rel="noopener noreferrer">View Code</a>
+                </li>
+            ))}
+            </ul>
+        </section>
+
+         <section id="contact" style={{ marginBottom: 32 }}>
+        <h2>Contact</h2>
+        <p>
+          Email: <a href="omondimorgan0812@gmail.com">omondimorgan0812@gmail.com</a>
+        </p>
+        <p>
+          GitHub: <a href="https://github.com/mg001-ort">mg001-ort</a>
+        </p>
+      </section>
+
+      <footer>
+        <p>&copy; {2025} Morgan Omondi</p>
+      </footer>
+</html>
